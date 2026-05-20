@@ -1,0 +1,66 @@
+{
+  "lacin": {
+    "favorites": [
+      2
+    ],
+    "history": [
+      {
+        "songId": 5,
+        "playedAt": 1791652722467
+      },
+      {
+        "songId": 4,
+        "playedAt": 1791652689688
+      },
+      {
+        "songId": 3,
+        "playedAt": 1791652688009
+      },
+      {
+        "songId": 2,
+        "playedAt": 1791652686171
+      },
+      {
+        "songId": 1,
+        "playedAt": 1791652683596
+      },
+      {
+        "songId": 6,
+        "playedAt": 1779222763353
+      },
+      {
+        "songId": 7,
+        "playedAt": 1779222757259
+      }
+    ],
+    "playlists": [
+      {
+        "id": "mv2nsb4k-tlg9ic",
+        "name": "Pop",
+        "songIds": [],
+        "createdAt": 1791652746836
+      },
+      {
+        "id": "mpd3b3eo-sx5fl5",
+        "name": "salam",
+        "songIds": [],
+        "createdAt": 1779222785281
+      },
+      {
+        "id": "starter-mix",
+        "name": "Starter Mix",
+        "songIds": [
+          1,
+          2,
+          4
+        ],
+        "createdAt": 1767225600000
+      }
+    ]
+  },
+  "demo": {
+    "favorites": [],
+    "history": [],
+    "playlists": []
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicIsTherapy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader" class="loader">
+        <div class="loader-logo">MusicIsTherapy</div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <div class="app hidden">
+        <aside class="sidebar">
+            <h2 class="logo">MusicIsTherapy</h2>
+
+            <nav class="sidebar-nav" aria-label="Əsas naviqasiya">
+                <button class="nav-btn active" data-panel="home" type="button">🏠 Ana Səhifə</button>
+                <button class="nav-btn" data-panel="playlists" type="button">🎵 Pleylistlər</button>
+                <button class="nav-btn" data-panel="favorites" type="button">⭐ Sevimlilər</button>
+                <button class="nav-btn" data-panel="history" type="button">🕒 Son Dinlənilənlər</button>
+            </nav>
+
+            <div class="sidebar-section">
+                <p class="sidebar-section-label">Tema</p>
+                <div class="theme-switcher">
+                    <button class="theme-btn" data-theme="black" type="button" aria-label="Qara tema" title="Qara"></button>
+                    <button class="theme-btn" data-theme="white" type="button" aria-label="Ağ tema" title="Ağ"></button>
+                    <button class="theme-btn" data-theme="yellow" type="button" aria-label="Sarı tema" title="Sarı"></button>
+                    <button class="theme-btn" data-theme="darkblue" type="button" aria-label="Tünd göy tema" title="Tünd Göy"></button>
+                    <button class="theme-btn" data-theme="lightpink" type="button" aria-label="Açıq çəhrayı tema" title="Açıq Çəhrayı"></button>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="user-chip">
+                    <div class="user-avatar" id="user-init">Q</div>
+                    <div>
+                        <p class="user-name" id="user-name">Qonaq</p>
+                        <p class="user-email" id="user-email">@guest</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main">
+            <div class="topbar">
+                <div>
+                    <h1 class="title">Sənin üçün tövsiyələr</h1>
+                    <p class="topbar-subtitle" id="topbar-subtitle">Sakitləşdirici və enerjili seçimləri bir yerdə saxla.</p>
+                </div>
+
+                <div class="topbar-actions">
+                    <label class="search">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" class="search-input" placeholder="Mahnı, artist və ya janr axtar..." aria-label="Axtarış">
+                    </label>
+                    <button class="logout-btn" id="logout-btn" type="button">Çıxış</button>
+                </div>
+            </div>
+
+            <section id="panel-home" class="tab-panel active"></section>
+            <section id="panel-playlists" class="tab-panel"></section>
+            <section id="panel-favorites" class="tab-panel"></section>
+            <section id="panel-history" class="tab-panel"></section>
+        </main>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

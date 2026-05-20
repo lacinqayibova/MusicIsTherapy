@@ -1,0 +1,122 @@
+{
+  "appName": "MusicIsTherapy",
+  "genres": [
+    "Pop",
+    "Ambient",
+    "Rock",
+    "Hip-Hop",
+    "Jazz",
+    "Electronic",
+    "Acoustic"
+  ],
+  "featured": [1, 2, 3, 4],
+  "trending": [2, 4, 6],
+  "newReleases": [5, 6, 7],
+  "songs": [
+    {
+      "id": 1,
+      "title": "Chill Vibes Mix",
+      "artist": "MusicIsTherapy",
+      "blurb": "Rahatlatıcı musiqilər",
+      "genre": "Ambient",
+      "cover": "https://i.pinimg.com/1200x/71/91/38/719138d4d39d44d6685580a88fcf767e.jpg",
+      "previewUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Discover Weekly",
+      "artist": "MusicIsTherapy",
+      "blurb": "Hər həftə sənə uyğun mahnılar",
+      "genre": "Pop",
+      "cover": "https://i.pinimg.com/736x/c5/67/67/c567677eaed5443a17065f50a55e7c38.jpg",
+      "previewUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Daily Mix",
+      "artist": "MusicIsTherapy",
+      "blurb": "Gündəlik dinlədiyin musiqilər",
+      "genre": "Electronic",
+      "cover": "https://i.pinimg.com/736x/6e/01/f0/6e01f063e2b0664ed13daa1c2168d2bb.jpg",
+      "previewUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Therapy Mix",
+      "artist": "MusicIsTherapy",
+      "blurb": "Duyğularını sakitləşdir",
+      "genre": "Acoustic",
+      "cover": "https://i.pinimg.com/1200x/dc/00/eb/dc00ebc8d85a3cf802aecb502cf7e212.jpg",
+      "previewUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Just Go",
+      "artist": "JIVA",
+      "blurb": "Yüngül ritm və yeni enerji",
+      "genre": "Pop",
+      "cover": "https://cebheinfo.az/uploads/images/2026/03/720x400/177307640921774569269aeffb9dabee.jpeg",
+      "previewUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Distracted",
+      "artist": "Thundercat",
+      "blurb": "Bu həftənin diqqət çəkən albomu",
+      "genre": "Jazz",
+      "cover": "https://media.pitchfork.com/photos/69d40c28b8fabafeb1ad578c/2:3/w_1000,h_1500,c_limit/Thundercat%20-%20Distracted%20album%20art.png",
+      "previewUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    },
+    {
+      "id": 7,
+      "title": "Ambiguous Desire",
+      "artist": "Arlo Parks",
+      "blurb": "Yeni albom kəşfi",
+      "genre": "Rock",
+      "cover": "https://media.pitchfork.com/photos/69ce79ea12472fa901c5785f/1:1/w_450%2Cc_limit/Arlo%2520Parks%2520Ambiguous%2520Desire.jpg",
+      "previewUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+    }
+  ],
+  "artists": [
+    {
+      "id": "roya",
+      "name": "Röya",
+      "genre": "Pop",
+      "listeners": "290.3K",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-plPSp3gBxiZ0CiFHK1daEnHDS6iNpYKvjA&s",
+      "featuredSongId": 2
+    },
+    {
+      "id": "aygun-kazimova",
+      "name": "Aygün Kazımova",
+      "genre": "Pop",
+      "listeners": "159.8K",
+      "image": "https://upload.az/foto/arxiv/WBvXPTXmMye0dzrThitW.jpg",
+      "featuredSongId": 5
+    },
+    {
+      "id": "zamiq-huseynov",
+      "name": "Zamiq Hüseynov",
+      "genre": "Pop",
+      "listeners": "61.4K",
+      "image": "https://lh3.googleusercontent.com/a-/ALV-UjXeQaEmBdi0JNt0Ymm3LJjlZPgsMIki6BHGkWELZnV0loh1czBm=w544-h544-l90-rj",
+      "featuredSongId": 3
+    },
+    {
+      "id": "hiss",
+      "name": "Hiss",
+      "genre": "Hip-Hop",
+      "listeners": "45.5K",
+      "image": "https://yt3.googleusercontent.com/0u7EiAZhpdeC0AnoVUgDmKRA82QDaFXWo9WJRVfQCSNYcrpvC_rECaUnWeZdFkv9vT8JlW36Ag=s900-c-k-c0x00ffffff-no-rj",
+      "featuredSongId": 6
+    },
+    {
+      "id": "jony",
+      "name": "JONY",
+      "genre": "Pop",
+      "listeners": "4.5M",
+      "image": "https://images.genius.com/18ede6166afa673627428f7e23b8eccf.1000x1000x1.jpg",
+      "featuredSongId": 1
+    }
+  ]
+}

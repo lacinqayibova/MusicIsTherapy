@@ -1,0 +1,16 @@
+[
+  {
+    "id": "user-lacin",
+    "username": "lacin",
+    "password": "salam123",
+    "name": "Lacin",
+    "email": "lacin@musicistherapy.app"
+  },
+  {
+    "id": "user-demo",
+    "username": "demo",
+    "password": "demo123",
+    "name": "Demo User",
+    "email": "demo@musicistherapy.app"
+  }
+]
